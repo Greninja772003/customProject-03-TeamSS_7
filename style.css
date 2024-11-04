@@ -1,0 +1,51 @@
+body{
+    font-family: 'Roboto', sans-serif;
+   color: black;
+    background-color: gainsboro;
+}
+.collapse {
+color: white;
+
+}
+.list-topics-content{
+    display: flex;
+}
+.header-top-contact{
+    color: black;
+    font-weight: bold;
+}
+.scroll a{
+    color: black;
+    font-weight: bold;
+}
+.welcome-hero-txt p{
+    color: black;
+}
+.row>.col-sm-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social>span{
+    color: black;
+    font-weight: bold;
+}
+.hover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border: solid black 1px;
+    border-radius: 20px;
+    left: -100%;
+    background-color: greenyellow;
+    
+    -webkit-transition: left .4s ease;
+    -moz-transition: left .4s ease;
+    -ms-transition: left .4s ease;
+    -o-transition: left .4s ease;
+    transition: left .4s ease;
+}
+.single-explore-item:hover{
+    margin-top: -20px;
+}
